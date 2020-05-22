@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "name": "",
+    "number": "",
+    "email": "",
+    "active": true
+  },
+  "orders": [
+    {
+      "id": 1,
+      "state": "CONFIRMED",
+      "source": {
+        "address": "my office"
+      },
+      "destination": {
+        "address": "my home"
+      },
+      "price": 18.5
+    },
+    {
+      "id": 2,
+      "state": "CONFIRMED",
+      "source": {
+        "address": "my office"
+      },
+      "destination": {
+        "address": "my home"
+      },
+      "price": 1.5
+    },
+    {
+      "id": 3,
+      "state": "PROCESSING",
+      "source": {
+        "address": "my office"
+      },
+      "destination": {
+        "address": "my home"
+      },
+      "price": 30
+    }
+  ]
+}
